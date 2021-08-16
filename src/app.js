@@ -28,7 +28,6 @@ console.log(`${minutes}`);
 dateElement.innerHTML = `${days[day]} ${hours}:${minutes}`;
 
 function displayWeatherCondition(response) {
-  console.log();
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temp").innerHTML = Math.round(
     response.data.main.temp
