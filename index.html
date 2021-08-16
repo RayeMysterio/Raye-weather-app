@@ -4,19 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <title>Raye's Weather App</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <title>Raye's Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
+
   <body>
     <div class="container">
-      <h1>Hello World!</h1>
+      <p id="current-date">Saturday 20:44</p>
+    </br>
+      <form id="search-form">
+        <input type="search" placeholder="Enter City/Town" id="city-input" />
+        <input type="submit" value="🔍" class="mag-glass" />
+        <input type="submit" value="Locate Me 📍" class="current-location" />
+      </br>  
+        <button class="btn button-temp-scale" type="search" a href="#" id="fahrenheit-link">°F/mi</button>
+        <button class="btn button-temp-scale" type="search" a href="#" id="celsius-link">°C/km</button>
+      </form>
+      <h1 id="city"></h1>
+      <h2 class="temp" id="temp"></h2>
+      <h3> <span id="description"></span></h3>
+      <ul>
+        <li>
+        Humidity: <span id="humidity"></span>%
+        </li>
+        <li>
+        Wind: <span id="wind"></span>km/h
+        </li>
+      </ul>
+    <br/>
+      <div class="weekly">
+        <h5>Weekly Forecast</h5>
+        <div class="row">
+          <div class="col-2">Mon</div>
+          <div class="col-2">Tue</div>
+          <div class="col-2">Wed</div>
+          <div class="col-2">Thu</div>
+          <div class="col-2">Fri</div>
+          <div class="col-2">Sat</div>
+        </div>
+        <div class="row">
+          <div class="col-2 emoji-week">☁️</div>
+          <div class="col-2 emoji-week">🌧️</div>
+          <div class="col-2 emoji-week">☁️</div>
+          <div class="col-2 emoji-week">☁️</div>
+          <div class="col-2 emoji-week">🌧️</div>
+          <div class="col-2 emoji-week">☀️</div>
+        </div>
+        <div class="row">
+          <div class="col-2 degree-week">27°</div>
+          <div class="col-2 degree-week">19°</div>
+          <div class="col-2 degree-week">29°</div>
+          <div class="col-2 degree-week">26°</div>
+          <div class="col-2 degree-week">22°</div>
+          <div class="col-2 degree-week">30°</div>
+        </div>
+      </div>
     </div>
+    <small><a href="https://github.com/RayeMysterio/Raye-weather-app" class="code-link">Open-source Code</a> by Rachel "Raye" Fisher</small>
     <script src="src/app.js"></script>
   </body>
 </html>
