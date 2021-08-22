@@ -6,7 +6,7 @@
   margin-top: 40px;
   margin-bottom: 10px;
   width: 650px;
-  height: 825px;
+  height: 815px;
   padding-bottom: 20px;
   padding-top: 20px;
   border: solid black 5px;
@@ -67,7 +67,8 @@ h3 {
 
 ul {
   display: inline;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 400;
   color: black;
   margin: 0 auto;
   list-style: none;
@@ -126,9 +127,13 @@ h5 {
   font-size: xx-large;
 }
 
-.degree-week {
-  font-weight: normal;
-  font-size: 22px;
+.degree-week-max {
+  font-size: 19px;
+}
+
+.degree-week-min {
+  font-size: 19px;
+  font-weight: lighter;
 }
 
 .weekly {
@@ -141,7 +146,7 @@ h5 {
   border: solid black;
   border-radius: 45px;
   padding-top: 0;
-  padding-bottom: 30px;
+  padding-bottom: 26px;
   padding-left: 30px;
   padding-right: 30px;
   line-height: normal;
