@@ -6,7 +6,7 @@
   margin-top: 40px;
   margin-bottom: 10px;
   width: 650px;
-  height: 815px;
+  height: 775px;
   padding-bottom: 20px;
   padding-top: 20px;
   border: solid black 5px;
@@ -75,14 +75,6 @@ ul {
   padding: 0px;
 }
 
-h5 {
-  font-size: 29px;
-  font-weight: bold;
-  padding: 30px;
-  margin: 0 auto;
-  line-height: 25px;
-}
-
 .mag-glass {
   color: black;
   background: linear-gradient(
@@ -116,7 +108,7 @@ h5 {
   border: solid 1.5px black;
 }
 
-.row {
+.weather-forecast-date {
   font-weight: bold;
   font-size: 20px;
   margin: 0 auto;
@@ -128,11 +120,11 @@ h5 {
 }
 
 .degree-week-max {
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .degree-week-min {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: lighter;
 }
 
@@ -144,9 +136,9 @@ h5 {
     rgb(21, 186, 196) 100.3%
   );
   border: solid black;
-  border-radius: 45px;
-  padding-top: 0;
-  padding-bottom: 26px;
+  border-radius: 55px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
   line-height: normal;
