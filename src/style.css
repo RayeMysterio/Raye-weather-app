@@ -120,12 +120,13 @@ ul {
 }
 
 .degree-week-max {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .degree-week-min {
-  font-size: 18px;
-  font-weight: lighter;
+  font-size: 20px;
+  color: rgb(1, 31, 31);
 }
 
 .weekly {
