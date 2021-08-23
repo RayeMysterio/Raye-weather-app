@@ -6,7 +6,7 @@
   margin-top: 40px;
   margin-bottom: 10px;
   width: 650px;
-  height: 775px;
+  height: 745px;
   padding-bottom: 20px;
   padding-top: 20px;
   border: solid black 5px;
@@ -145,7 +145,7 @@ ul {
 }
 
 #search-form {
-  line-height: 44px;
+  line-height: 40px;
 }
 
 small {
